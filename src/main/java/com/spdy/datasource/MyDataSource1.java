@@ -1,4 +1,4 @@
-/*package com.spdy.datasource;
+package com.spdy.datasource;
 
 import javax.sql.DataSource;
 
@@ -13,11 +13,11 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.PlatformTransactionManager;
 
-*//**
+/**
  * 数据源2 
  * @author leiyi
  *
- *//*
+ */
 @Configuration
 @Component
 @MapperScan(basePackages="com.spdy.mapper1",sqlSessionFactoryRef="secondSqlSessionFactory")
@@ -47,4 +47,3 @@ public class MyDataSource1 {
 		return new DataSourceTransactionManager(dataSource());
 	}
 }
-*/
